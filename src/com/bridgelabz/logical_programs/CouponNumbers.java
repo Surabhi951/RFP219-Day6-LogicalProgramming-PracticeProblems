@@ -14,8 +14,8 @@ public class CouponNumbers {
             couponCount++;
             System.out.println(couponNumber);
         }
-        System.out.println("winner coupon : "+couponNumber);
-        System.out.println("No of coupons to match winner:"+couponCount);
+        System.out.println("winner coupon : " + couponNumber);
+        System.out.println("No of coupons to match winner:" + couponCount);
     }
 
     static int generateCoupon(){
