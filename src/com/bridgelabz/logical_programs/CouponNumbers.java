@@ -20,7 +20,7 @@ public class CouponNumbers {
 
     static int generateCoupon(){
         int num = 0;
-        Random random=new Random();
+        Random random = new Random();
         while (num < 100000){
             num = random.nextInt(999999);
         }
