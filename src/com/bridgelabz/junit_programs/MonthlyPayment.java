@@ -17,7 +17,7 @@ public class MonthlyPayment {
         calculateMonthlyPayment();
     }
 
-    static void calculateMonthlyPayment(){
+    static void calculateMonthlyPayment() {
         double n = 12 * y;
         double r1 = r / (12 * 100);
         double payment = p * r / (1 - (Math.pow((1 + r1),(-n))));
