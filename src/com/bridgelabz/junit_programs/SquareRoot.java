@@ -13,9 +13,9 @@ public class SquareRoot {
 
     static void sqrt(int num) {
         double epsilon = 1E-15;
-        double t=num;
-        while(Math.abs(t-num/t) > epsilon*t)
-            t=(num/t+t)/2;
+        double t = num;
+        while(Math.abs(t - num/t) > epsilon*t)
+            t = (num/t + t) / 2;
         System.out.println(t);
 
     }
