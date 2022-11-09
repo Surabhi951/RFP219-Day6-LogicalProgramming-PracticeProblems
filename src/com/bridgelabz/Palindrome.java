@@ -4,7 +4,11 @@ package com.bridgelabz;
 public class Palindrome {
 
     public static void main(String[] args) {
+        Palindrome p = new Palindrome();
+        p.checkPalindromeString();
+    }
 
+    void checkPalindromeString(){
         String str = "Madam";
         String reverseStr = "";
         int strLength = str.length();
@@ -18,7 +22,5 @@ public class Palindrome {
         else{
             System.out.println(str + "is not a palindrome string");
         }
-
-
     }
 }
